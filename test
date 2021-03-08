@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="card-container">
+    <section class="card-faq">
+      <div class="card-img">
+        <img src="/images/illustration-woman-online-mobile.svg">
+      </div>
+      <div class="card-icon-bg">
+        <img class="card-icon-background" src="/images/bg-pattern-mobile.svg">
+      </div>
+      <h1>FAQ</h1>
+
+      <div class="card-accordion-item">
+        <p class="card-accordion-header">
+          How many team members can I invite?
+          <span><img class="arrow" src="images/icon-arrow-down.svg"></span>
+          <p class="card-accordion-content">
+            You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.
+          </p>
+        </p>
+        </div>
+      <div class="card-accordion-item">
+        <p class="card-accordion-header">
+          What is the maximum file upload size?
+          <span><img class="arrow" src="images/icon-arrow-down.svg"></span>
+          <p class="card-accordion-content">
+            No more than 2GB. All files in your account must fit your allotted storage space.
+          </p>
+        </p>
+        </div>
+      <div class="card-accordion-item">
+        <p class="card-accordion-header">
+          How do I reset my password?
+          <span><img class="arrow" src="images/icon-arrow-down.svg"></span>
+          <p class="card-accordion-content">
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.
+          </p>
+        </p>
+        </div>
+      <div class="card-accordion-item">
+        <p class="card-accordion-header">
+          Can I cancel my subscription?
+          <span><img class="arrow" src="images/icon-arrow-down.svg"></span>
+          <p class="card-accordion-content">
+            Yes! Send us a message and we’ll process your request no questions asked.
+          </p>
+        </p>
+        </div>
+      <div class="card-accordion-item">
+        <p class="card-accordion-header">
+          Do you provide additional support?
+          <span><img class="arrow" src="images/icon-arrow-down.svg"></span>
+          <p class="card-accordion-content">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </p>
+        </p>
+        </div>
+      </section>
+      </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Miguel Mendez</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
