@@ -68,8 +68,6 @@ body {
 .card-faq {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .card-container {
@@ -113,11 +111,14 @@ body {
   
 }
 
-.card-accordion-header {
+.card-accordion-header{
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
-  
+}
+
+.card-accordion-header:hover {
+  color: #DF5C34;
 }
 
 .card-accordion-content {
@@ -189,6 +190,4 @@ body {
     text-align: left;
     z-index: 15;
   }
-
-
 }
